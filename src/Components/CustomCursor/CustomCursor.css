@@ -1,0 +1,19 @@
+html,
+body,
+a {
+  cursor: none;
+}
+#cursor {
+  transform: translate(0, 0);
+  pointer-events: none;
+  position: fixed;
+  top: -4px;
+  left: -4px;
+  width: 15px;
+  height: 15px;
+  background-color:white;
+  border-radius: 50%;
+  z-index: 999;
+  transition: width 0.3s, height 0.3s, top 0.3s, left 0.3s;
+}
+
